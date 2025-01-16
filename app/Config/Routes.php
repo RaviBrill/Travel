@@ -18,6 +18,8 @@ $routes->get('blog_detail', 'Home::blog_detail');
 $routes->get('blog_detail2', 'Home::blog_detail2');
 
 
+// Define the route for the getcitylist POST request
+$routes->post('Home/getcitylist', 'Home::getcitylist');
 
 $routes->get('contact', 'Home::contact');
 $routes->post('contact', 'Home::contact');

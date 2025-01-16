@@ -16,9 +16,9 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    // public string $baseURL = 'https://acs.brillsense.com/';
+    public string $baseURL = 'http://localhost:98/';
     // public string $baseURL = 'http://localhost/Travelling-destination/';
-    public string $baseURL = 'http://localhost/Travelling-destination/';
+    // public string $baseURL = 'http://localhost/Travelling-destination/';
 
 
     /**
